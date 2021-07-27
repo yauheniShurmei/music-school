@@ -1,0 +1,11 @@
+.PhotoBlock {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 200px auto;
+}
+.PhotoBlock img {
+  width: 30%;
+  margin: calc(10% / 6);
+}

@@ -1,0 +1,11 @@
+.AboutSchool {
+  width: 70%;
+  margin: auto;
+  margin: 200px auto;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  font-size: 1.5rem;
+  background-color: #e0d948;
+  padding: 20px;
+  line-height: 2.4rem;
+}

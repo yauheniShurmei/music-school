@@ -1,0 +1,12 @@
+.InfoCircle {
+  border: 4px solid #32abda;
+  border-radius: 50%;
+  min-height: 18rem;
+  min-width: 18rem;
+  height: 18rem;
+  width: 18rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 0 10px;
+}

@@ -1,0 +1,10 @@
+.CirclesBlock {
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 200px auto;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  font-size: 1.5rem;
+}
