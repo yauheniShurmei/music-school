@@ -8,9 +8,11 @@ const TitlePart = () => {
           <h1>MUSIC SCHOOL</h1>
           <h2>Get full access to materials and homework</h2>
         </div>
+        <div className={classes.button_section}>
+          <button>LOG IN</button>
+          <button>Create New Account</button>
+        </div>
       </div>
-
-      <div className={classes.main_content}></div>
     </section>
   );
 };

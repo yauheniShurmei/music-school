@@ -2,7 +2,7 @@
   height: 100vh;
   width: 100%;
   background-image: url(../../public/guitars.jpg);
-  background-position: 50% 0px;
+  background-position: 50% -50px;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -20,13 +20,16 @@
 .header_info h1 {
   margin: 0;
   font-size: 140px;
+  margin-top: 350px;
+  text-shadow: -7px 0 25px rgb(0, 0, 0, 25%);
   /* font-weight: 900; */
-  margin-top: 500px;
   /* margin-bottom: 300px; */
   /* color: rgb(235, 75, 75); */
   /* color: white; */
 }
 .header_info h2 {
+  text-shadow: -7px 0 25px rgb(0, 0, 0, 25%);
+  margin-top: 0px;
   font-size: 46px;
 }
 
@@ -34,4 +37,30 @@
   font-family: "Roboto", sans-serif;
   width: 80%;
   margin: auto;
+}
+
+.button_section {
+  width: 80%;
+  margin: auto;
+}
+.button_section button {
+  width: 476px;
+  height: 104px;
+  border: none;
+  border-radius: 75px;
+  cursor: pointer;
+  box-shadow: -7px 0 25px rgb(0, 0, 0, 25%);
+}
+.button_section button:nth-of-type(1) {
+  color: #ff8f84;
+  font-size: 39px;
+  font-weight: bold;
+  background-color: white;
+  margin-right: 40px;
+}
+.button_section button:nth-of-type(2) {
+  color: #fff;
+  font-size: 36px;
+  font-weight: bold;
+  background-color: #ff8f84;
 }
