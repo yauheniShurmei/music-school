@@ -5,7 +5,9 @@ const TitlePart = () => {
     <section>
       <div className={classes.header}>
         <div className={classes.header_info}>
-          <h1>MUSIC SCHOOL</h1>
+          <h1>
+            <span>MUSIC</span> <span>SCHOOL</span>
+          </h1>
           <h2>Get full access to materials and homework</h2>
         </div>
         <div className={classes.button_section}>

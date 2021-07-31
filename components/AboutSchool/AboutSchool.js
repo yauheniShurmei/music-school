@@ -1,8 +1,9 @@
 import classes from "./AboutSchool.module.css";
+import CardBlocks from "../CardBlocks/CardBlocks";
 
 const AboutSchool = () => {
   return (
-    <section className={classes.AboutSchool}>
+    <CardBlocks className={classes.AboutSchool}>
       <span>
         17 Lekcji na kturych poznasz wszystke sposoby gry nagitarze i wszystke
         podstawy muzyczne które mogą Cie spotkać na szlaku muzycznym. Ale to
@@ -16,7 +17,7 @@ const AboutSchool = () => {
         melodji, solówek, kawałków z pop, rock, jazz muzyki. Każda lekcja trwa
         45 minut
       </span>
-    </section>
+    </CardBlocks>
   );
 };
 
